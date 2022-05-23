@@ -35,7 +35,7 @@ ydl_opts = {
 }
 
 
-@Client.on_message(command(["بحث", f"ب"]) & ~filters.edited)
+@Client.on_message(command(",تحميل", f"ب"]) & ~filters.edited)
 def song(_, message):
     query = " ".join(message.command[1:])
     m = message.reply("❤️‍🔥 جَاެࢪي اެݪبَحثَ...")
@@ -60,7 +60,7 @@ def song(_, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"**🎧 تم التحميل بواسطة @rr8r9**"
+        rep = f"**🎧 تم التحميل بواسطة m_uv6**"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(float(dur_arr[i])) * secmul
