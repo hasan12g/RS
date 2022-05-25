@@ -98,7 +98,7 @@ async def start_(c: Client, message: Message):
                     InlineKeyboardButton("طࢪيقة اެݪتشغيݪ", callback_data="user_guide")
                 ],[
                     InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="command_list"),
-                    InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/{OWNER_USERNAME}")                    
+                    InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/{OWNER_USERNAME@m_uv6 }")                    
                 ],
             ]
         ),
@@ -185,7 +185,7 @@ async def new_chat(c: Client, m: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("-› قناة السورس", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                                InlineKeyboardButton("https://t.me/m_uv09-› قناة السورس", url=f"https://t.me/{UPDATES_CHANNEL}"),
                                 InlineKeyboardButton("-› الاوامر", callback_data="command_list")
                             ],[
                                 InlineKeyboardButton("-› حساب المساعد", url=f"https://t.me/{me_user.username}")
